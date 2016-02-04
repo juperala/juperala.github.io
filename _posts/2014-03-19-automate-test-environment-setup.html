@@ -2,22 +2,10 @@
 layout: post
 title: Automate test environment setup
 date: 2014-03-19 01:07:05.000000000 +02:00
-type: post
-published: true
-status: publish
-categories:
-- Configuration management
-- Test automation
-tags: []
-meta:
-  _edit_last: '1'
-author:
-  login: blogger
-  email: juperala@dnainternet.net
-  display_name: blogger
-  first_name: ''
-  last_name: ''
+author: juperala
+header-img: "img/post-bg-06.jpg"
 ---
+
 <div class="entry">
 <p>Manual installation and configuration of complex test environments can be very time consuming and error-prone. Setup and configuration of test environment with various servers and dependencies (e.g. database, application server, libraries, compilers, etc.) can take anything from hours to several days depending on the environment complexity. Manual configuration is also very error-prone as misconfiguration of the environment may not be directly visible, but can results unpredictable behavior/performance leading to unreliable test results. So why not to automate the setup process to make it fast and reproducible?</p>
 <p>In my current project we have been using <a href="http://www.getchef.com/" target="_blank">Chef</a> configuration management tool for automation of the development and test environments. Shortly put, the Chef is pretty much awesome. Setup time for setting new development/test environment is shortened literally from hours to minutes. With Chef, all developers and testers have also identical environments which significantly reduces the amount of time spent on solving environment related issues.</p>

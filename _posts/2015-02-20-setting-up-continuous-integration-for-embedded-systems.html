@@ -2,28 +2,10 @@
 layout: post
 title: Continuous integration for embedded systems
 date: 2015-02-20 11:29:48.000000000 +02:00
-type: post
-published: true
-status: publish
-categories:
-- Arduino
-- Continuous integration
-- Embedded Systems
-- Jenkins
-- Selenium
-- Test automation
-tags: []
-meta:
-  _edit_last: '1'
-  _pingme: '1'
-  _encloseme: '1'
-author:
-  login: blogger
-  email: juperala@dnainternet.net
-  display_name: blogger
-  first_name: ''
-  last_name: ''
+author: juperala
+header-img: "img/post-bg-06.jpg"
 ---
+
 <p>I started a small hobby project to develop a simple web-controllable digital I/O card for controlling and monitoring various kinds of peripheral devices. As a hardware platform I selected Arduino Uno micro-controller board with W5100 Ethernet Shield for network access. Arduino was selected as hardware platform due its simplicity and low price point (Arduino Uno compatible board + Ethernet shield cost under $15 with home delivery). To follow-up agile and TDD development practices I decided to setup a continuous integration environment for automated building and testing of the control software in the embedded hardware.</p>
 <p><a href="http://jperala.fi/wp-content/uploads/2015/02/rounded_corners.jpg"><img class=" size-medium wp-image-66 aligncenter" src="{{ site.baseurl }}/assets/rounded_corners-300x155.jpg" alt="rounded_corners" width="300" height="155" /></a>In general setting up of the continuous integration for embedded system projects is quite similar as for any other project, but you need to take into consideration some additional issues such:</p>
 <ul>
