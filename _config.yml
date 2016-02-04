@@ -4,12 +4,12 @@ header-img: img/home-bg.jpg
 email: juperala@dnainternet.net
 copyright_name: Juho Perälä
 description: "Test, develop, automate"
-baseurl: "/startbootstrap-clean-blog-jekyll"
+baseurl: ""
 url: "http://juperala.github.io"
 twitter_username: juperala
 github_username:  juperala
-facebook_username:  
-email_username:  juperala@dnainternet.net
+facebook_username: juperala
+email_username:  juperala(at)dnainternet.net
 
 # Build settings
 markdown: kramdown
