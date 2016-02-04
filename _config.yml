@@ -1,15 +1,15 @@
 # Site settings
 title: juperala.fi
 header-img: img/home-bg.jpg
-email: juperala@dnainternet.net
+email: juperala(at)dnainternet.net
 copyright_name: Juho Perälä
 description: "Test, develop, automate"
 baseurl: ""
 url: "http://juperala.github.io"
 twitter_username: juperala
-github_username:  juperala
-facebook_username: juho.perala
-email_username:  juperala(at)dnainternet.net
+#github_username:  juperala
+#facebook_username: juho.perala
+email_username:  juperala (at) dnainternet.net
 
 # Build settings
 markdown: kramdown
