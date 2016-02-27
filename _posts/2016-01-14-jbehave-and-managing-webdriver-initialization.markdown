@@ -18,6 +18,8 @@ published: true
 <p>Which is the most suitable lifecycle model depends on the needs of the test. Using PerScenarioWebDriverSteps makes the tests most deterministic and robust as each individual scenario is executed with freshly initialized WebDriver instance and in new browser window, whereas PerStoriesWebDriverSteps is faster in large test sets as initialization of WebDriver and browser is made only once during whole test execution (or once per story when using PerStoryWebDriverSteps).</p>
 <p>When using PerStoriesWebDriverSteps or PerStoryWebDriverSteps it is definitely good practice to clear browser cookies before or after each story:</p>
 
+<p>A test</p>
+
 {% highlight java %}
 @BeforeScenario
 public void beforeScenario() {
