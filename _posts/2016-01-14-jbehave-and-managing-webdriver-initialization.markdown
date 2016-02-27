@@ -17,12 +17,14 @@ published: true
 <p><!--more--></p>
 <p>Which is the most suitable lifecycle model depends on the needs of the test. Using PerScenarioWebDriverSteps makes the tests most deterministic and robust as each individual scenario is executed with freshly initialized WebDriver instance and in new browser window, whereas PerStoriesWebDriverSteps is faster in large test sets as initialization of WebDriver and browser is made only once during whole test execution (or once per story when using PerStoryWebDriverSteps).</p>
 <p>When using PerStoriesWebDriverSteps or PerStoryWebDriverSteps it is definitely good practice to clear browser cookies before or after each story:</p>
+
 {% highlight java %}
 @BeforeScenario
 public void beforeScenario() {
     driver.manage().deleteAllCookies();
 }
 {% endhighlight %}
+
 <p>However, in some rare cases using same WebDriver instance between multiple tests can cause some unwanted trouble and undeterministic behavior caused by lingering cookies which can cause e.g. logged-in user to remain its session. In these cases using PerScenarioWebDriverSteps is the most suitable and robust alternative.</p>
 <p>When running parameterized scenarios  (i.e. example scenarios) with multiple example values, similar issues may arise within different parameterized executions of the same scenario. In these cases it would be handy to initialize the WebDriver separately for each parameterized run of the scenario. However, by default JBehave does not provide lifecycle step supporting this type of behavior. Luckily this can be easily added by creating PerExampleWebDriverSteps class, that handles initialization of the WebDriverProvider in both NORMAL and EXAMPLE alternatives of @BeforeScenario annotation:</p>
 <pre class="lang:java decode:true" title="Lifecycle class to initialize WebDriver for earch scenario example.">package fi.jperala.jbehave.steps;
@@ -34,7 +36,7 @@ import org.jbehave.web.selenium.WebDriverProvider;
 import org.jbehave.web.selenium.WebDriverSteps;
 
 public class PerExampleWebDriverSteps extends WebDriverSteps {
-    
+
     private boolean initialized;
 
     public PerExampleWebDriverSteps(WebDriverProvider driverProvider) {
