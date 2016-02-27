@@ -16,7 +16,7 @@ With jbehave-web-selenium library the lifecycle of WebDriver instance in tests i
 + **PerStoryWebDriverSteps**, which initiates and finalizes the WebDriver instance for each  story. Using PerStoryWebDriverSteps enables executions of each story with own WebDriver instance, while the same driver instance is used between scenarios of that same story.
 + **PerScenarioWebDriverSteps**, which initiates and finalizes the WebDriver instance for each scenario of each story.
 
-Which is the most suitable lifecycle model depends on the needs of the test. Using *PerScenarioWebDriverSteps* makes the tests most deterministic and robust as each individual scenario is executed with freshly initialized WebDriver instance and in new browser window, whereas *PerStoriesWebDriverSteps* is faster in large test sets as initialization of WebDriver and browser is made only once during whole test execution (or once per story when using *PerStoryWebDriverSteps*).
+Which is the most suitable lifecycle model depends on the needs of the test. Using *PerScenarioWebDriverSteps* makes the tests most deterministic and robust as each individual scenario is executed with freshly initialized WebDriver instance and in new browser window. *PerStoryWebDriverSteps* is faster alternative as WebDriver is initialized only for each story and all story scenarios are executed with the same WebDriver instance. *PerStoriesWebDriverSteps* is the fastest alternative as initialization of WebDriver and browser is made only once during whole test suite execution.
 
 When using PerStoriesWebDriverSteps or PerStoryWebDriverSteps it is definitely good practice to clear browser cookies before or after each story:
 

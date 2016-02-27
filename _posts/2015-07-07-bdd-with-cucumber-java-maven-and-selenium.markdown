@@ -10,7 +10,7 @@ header-img: "img/post-bg-06.jpg"
 In this tutorial, the [Vaadin Addressbook tutorial](https://github.com/vaadin/addressbook) application is used as test target for which the tests are implemented.
 
 TLDR: Give me the ready solution
-================================
+--------------------------------
 
 The test code implemented in this tutorial, with a clone of Vaadin Addressbook application, is available from [my GitHub account](https://github.com/juperala/addressbook). If you want to jump right into running tests, you can clone the ready solution and execute tests using maven:
 
@@ -21,7 +21,7 @@ mvn verify
 {% endhighlight %}
 
 Step 0: Clone the application and add dependencies
-==================================================
+--------------------------------------------------
 
 To get started in this tutorial, we need to clone the test target code from GitHub:
 
@@ -30,8 +30,7 @@ git clone https://github.com/vaadin/addressbook.git
 cd addressbook
 {% endhighlight %}
 
-Run the application
--------------------
+### Run the application
 
 To get familiar with the Addressbook application, you can start-up the application with maven:
 
@@ -40,12 +39,11 @@ mvn jetty:run
 {% endhighlight %}
 
 When started, the application can be accessed via browser in localhost:8080:
-[![Vaadin Addressbook application]({{ site.baseurl }}/assets/addressbook-small.png)]({{ site.baseurl }}/assets/addressbook.png)
+[![Vaadin Addressbook application]({{ site.baseurl }}/img/2015-07-07/cucumber-addressbook-small.png)]({{ site.baseurl }}/img/2015-07-07/cucumber-addressbook.png)
 
-Add test dependencies
----------------------
+### Add test dependencies
 
-To begin our test development, we need to add needed JUnit, Cucumber and Selenium libraries in the project /<em>**pom.xml**</em> file as dependencies. Add following dependencies:
+To begin our test development, we need to add needed JUnit, Cucumber and Selenium libraries in the project */pom.xml* file as dependencies. Add following dependencies:
 
 {% highlight xml %}
     <dependencies>
@@ -86,7 +84,7 @@ To begin our test development, we need to add needed JUnit, Cucumber and Seleniu
 {% endhighlight %}
 
 Step 1: Write Cucumber acceptance tests
-=======================================
+---------------------------------------
 
 First, we need to define the tests for Cucumber. Cucumber uses Gherkin DSL (Domain Specific Language) parser to parse domain-specific plain text test specification. The plain text test specification follow the BDD-style *"Given...When...Then..."* pattern to define pre-conditions, system behavior and expected post-condititons.
 
@@ -96,9 +94,9 @@ After familiarization with the Addressbook application, we identified three main
 + Searching persons from contact list, and
 + Updating persons in the contact list.
 
-Next we create Cucumber test specification for these features. In Cucumber-JVM the test specifications for features are stored by default in **/src/test/resources/&lt;package&gt;/&lt;feature-name&gt;.feature** directory.
+Next we create Cucumber test specification for these features. In Cucumber-JVM the test specifications for features are stored by default in */src/test/resources/&lt;package&gt;/&lt;feature-name&gt;.feature* directory.
 
-Define add feature in file: **/src/test/resources/feature/contact/add/add.feature**:
+Define add feature in file: */src/test/resources/feature/contact/add/add.feature*:
 
 {% highlight text %}
 Feature: Add person to contacts
@@ -115,7 +113,7 @@ Feature: Add person to contacts
         Then person with firstname 'Lasse' and lastname 'Laaka' does not exist in contacts
 {% endhighlight %}
 
-Define search feature in file: **/src/test/resources/feature/contact/search/search.feature**:
+Define search feature in file: */src/test/resources/feature/contact/search/search.feature*:
 
 {% highlight text %}
 Feature: Search person in contacts
@@ -133,7 +131,7 @@ Feature: Search person in contacts
         Then number of contacts is 2
 {% endhighlight %}
 
-Define update feature in file: **/src/test/resources/feature/contact/update/update.feature**:
+Define update feature in file: */src/test/resources/feature/contact/update/update.feature*:
 
 {% highlight text %}
 Feature: Update person in contacts
@@ -155,10 +153,10 @@ Feature: Update person in contacts
 {% endhighlight %}
 
 Step 2: Implement Java tests for defined features
-=================================================
+-------------------------------------------------
 
 After defining the scenarios, we need to create corresponding test classes in Java. In this tutorial we are using Cucumber JUnit runner to execute tests using JUnit test framework and we need to define the corresponding test classes for the add, search and update features:
-Create add feature test: **/src/test/java/feature/contact/add/AddContactIT.java**:
+Create add feature test: */src/test/java/feature/contact/add/AddContactIT.java*:
 
 {% highlight java %}
 package feature.contact.add;
@@ -181,7 +179,7 @@ public class AddContactIT {
 }
 {% endhighlight %}
 
-Create search feature test: **/src/test/java/feature/contact/search/SearchContactIT.java**:
+Create search feature test: */src/test/java/feature/contact/search/SearchContactIT.java*:
 
 {% highlight java %}
 package feature.contact.search;
@@ -204,7 +202,7 @@ public class SearchContactIT {
 }
 {% endhighlight %}
 
-Create update feature test: **/src/test/java/feature/contact/update/UpdateContactIT.java**:
+Create update feature test: */src/test/java/feature/contact/update/UpdateContactIT.java*:
 
 {% highlight java %}
 package feature.contact.update;
@@ -228,11 +226,11 @@ public class UpdateContactIT {
 {% endhighlight %}
 
 Step 3: Implement Selenium mapping to Addressbook
-=================================================
+-------------------------------------------------
 
 Next we need to create support for controlling the Addressbook target application using Selenium. In this tutorial we used PageObject pattern to separate the Selenium functionality into a separate page object class.
 
-Create Addressbook page object: **/src/test/java/pages/AddressBookPage.java**:
+Create Addressbook page object: */src/test/java/pages/AddressBookPage.java*:
 
 {% highlight java %}
 package pages;
@@ -405,11 +403,11 @@ public class AddressBookPage {
 {% endhighlight %}
 
 Step 4: Map Cucumber test steps to page object
-==============================================
+----------------------------------------------
 
 After creating the test classes and Selenium page object, we need to implement Cucumber test steps and map these to the created Selenium page object. For clarify and reuse, we define the steps in separate *steps* package. As seen in the Step 2, we used *@CucumberOptions* annotation and *glue* attribute to define the location where Cucumber tries to find corresponding step definitions.
 
-Create Java step definition file: **/src/test/java/steps/ContactSteps.java**:
+Create Java step definition file: */src/test/java/steps/ContactSteps.java*:
 
 {% highlight java %}
 package steps;
@@ -537,11 +535,11 @@ public class ContactSteps {
 {% endhighlight %}
 
 Step 5: Configure execution of tests in Maven
-=============================================
+---------------------------------------------
 
 To execute tests, we need to configure the execution of tests in project */pom.xml* file. We defined the tests as integration tests (**IT.java*) and use the *[maven-failsafe-plugin](https://maven.apache.org/surefire/maven-failsafe-plugin/)* to execute these tests as part of the maven integration-test lifecycle. In addition, *[jetty-maven-plugin](http://www.eclipse.org/jetty/documentation/current/jetty-maven-plugin.html)* is reconfigured to start the test target in maven pre-integration-test lifecycle, and stop it in post-integration-test lifecycle.
 
-Update **/pom.xml** with following build plugins:
+Update */pom.xml* with following build plugins:
 
 {% highlight xml %}
 <build>
@@ -595,7 +593,7 @@ Update **/pom.xml** with following build plugins:
 {% endhighlight %}
 
 Step 6: All done, Enjoy!
-========================
+------------------------
 
 Now we have a working Cucumber-JVM example using JUnit, Maven and Selenium. Execute tests via maven:
 
@@ -604,8 +602,8 @@ mvn verify
 {% endhighlight %}
 
 and observe the results:
-[![test result]({{ site.baseurl }}/assets/build_success-small.png)]({{ site.baseurl }}/assets/build_success.png)
+[![test result]({{ site.baseurl }}/img/2015-07-07/cucumber-build-small.png)]({{ site.baseurl }}/img/2015-07-07/cucumber-build.png)
 
-The html formatted Cucumber test reports can be found from the */target/results/** folder as defined in *@CucumberOptions* in Step 2.
+The html formatted Cucumber test reports can be found from the */target/results/* folder as defined in *@CucumberOptions* in Step 2.
 
 Enjoy!

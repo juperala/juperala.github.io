@@ -20,7 +20,7 @@ Now when the course is finalized it is good time to sum up the experiences about
 
 - The programming exercises were required to be implemented using GUI library provided by the course online development environment, thus, some extra work was needed if you wanted to port your exercises to TKinter (or any other Python GUI library).
 
-[![Pong in Python]({{ site.baseurl }}/assets/pong-small.png)]({{ site.baseurl }}/assets/pong.png)
+[![Pong in Python]({{ site.baseurl }}/img/2014-02-16/pong-small.png)]({{ site.baseurl }}/img/2014-02-16/pong.png)
 *Simple Pong implementation in Python*
 
 In a nutshell, the experience was very positive.  Course was very well organized and I will be definitely looking on the upcoming courses in Coursera.
