@@ -3,7 +3,7 @@ layout: post
 title: Applications for habitability
 date: 2015-09-27 20:16:17.000000000 +03:00
 author: juperala
-header-img: "img/post-bg-06.jpg"
+header-img: "img/post-bg-05.jpg"
 ---
 Last week I participated on the [FiSTB Testing Assembly](http://testingassembly.fistb.fi) event, a day full of great talks and presentations. As one of the interesting talks Aleksis Tulonen gave presentation about "Habitability Matters". In essence the talk was about the importance of making your working environment as comfortable and usable as possible to facilitate efficient ways of working.
 
