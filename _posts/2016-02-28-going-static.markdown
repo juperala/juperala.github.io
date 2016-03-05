@@ -9,7 +9,7 @@ published: true
 
 I am a lazy blogger - I only write occasionally. Originally I setup my blog to get familiar with Content Management Systems (CMSs). For the last 2 years this blog has been hosted on cheap $5/month VPS server running WordPress. Although I write only few posts per year, maintaining the server requires some additional effort on monthly basis. The server and CMS needs to be kept up-to-date to avoid security risks, backups needs to be managed, and so on. Especially the security concerns have been topic during the last year as numerous security vulnerabilities have been identified in the WordPress. There is also the cost issue, although insignificant, caused by the maintenance of the VPS server hosting. So it is time to try something new.
 
-The easies alternative would have been to move the blog to any hosted blogging platform such *Wordpress.com* or *Blogger.com*. However, I am a tech guy by nature and like to know what happens under the hood of the system. Therefore I started looking alternative blogging platform that would require less maintenance than WordPress, but yet give full control over the system.
+The easiest alternative would have been to move the blog to any hosted blogging platform such *Wordpress.com* or *Blogger.com*. However, I am a tech guy by nature and like to know what happens under the hood of the system. Therefore I started looking alternative blogging platform that would require less maintenance than WordPress, but yet give full control over the system.
 
 Static web-page generators like [Jekyll](http://jekyllrb.com/) and [Hugo](https://gohugo.io/) have gained huge popularity during last years. With static web-page generators you write your posts and content as plain text files with markup syntax, which is then compiled into static HTML website using the template files. Although the static sites are somewhat more limited than full-blown CMS systems, there is also notable benefits:
 
@@ -71,7 +71,7 @@ ruby -rubygems -e 'require "jekyll-import";
     })'
 {% endhighlight %}
 
-*Note:* You may need to go through the generate posts in the *_posts/* folder to fix invalid links and image references to old Wordpress site.
+*Note:* You may need to go through the generated posts in the *_posts/* folder to fix invalid links and image references to old Wordpress site.
 
 ### Deploy site
 
