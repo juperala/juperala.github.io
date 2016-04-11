@@ -7,7 +7,7 @@ author: juperala
 published: true
 ---
 
-With colleagues we had discussion about the performance of difference WebDriver locators. According some sources especially the XPATH locator can have slow performance compared to CSS and other locators. To get rough idea about the performance of different locators I decided to make a quick test on Firefox, Chrome and Edge.
+With colleagues we had discussion about the performance of different WebDriver locators. According some sources especially the XPATH locator can have slow performance compared to CSS and other locators. To get rough idea about the performance of different locators I decided to make a quick test on Firefox, Chrome and Edge.
 
 Test case
 ---------
@@ -48,7 +48,7 @@ The executed test is just a quick measurement to get rough idea about the locato
 
 However, what can be seen from the results is that the performance is highly affected by the used browser. In fact, the used browser seems to be more dominant factor for the performance than the used locator type. Supprisingly the Edge seems to beat Firefox and Chrome in performance by far. Can Edge really be this fast?
 
-Another finding was very poor performance of linkText -locator in Firefox, whereas is Chrome and Firefox no similar performance drop was observable. Also bit supprisingly, the id -locator was not always the fastest locator (as we initially expected).
+Another finding was very poor performance of linkText -locator in Firefox, whereas is Chrome and Firefox no similar performance drop was observable. Also bit supprisingly, the id -locator was not always the fastest locator (as we  initially expected).
 
 As conclusion, the performance of locators in most cases has only minimal (or none) effect on the test execution time and result varies on each browser. In most normal test cases the test execution times are affected on ten- to hundredfolds by the wait strategies used in tests.
 
