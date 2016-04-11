@@ -47,7 +47,7 @@ Here are the measurement results. The time is total time of 100 findElement() me
 Summary
 -------
 
-The executed test is just a quick measurement to get rough idea about the locator performance. The performance is naturally affected by context (e.g. page content. platform and used search queries), and therefore the results should not be used as conclusive results but rather as starting point for additional analysis.
+The executed test is just a quick measurement to get rough idea about the locator performance. The performance is naturally affected by context (e.g. page content, locator queries and test environment), and therefore the results should not be used as conclusive results but rather as starting point for additional analysis.
 
 However, what can be seen from the results is that the performance is highly affected by the used browser. In fact, the used browser seems to be more dominant factor for the performance than the used locator type. Supprisingly the Edge seems to beat Firefox and Chrome in performance by far. Can Edge really be this fast?
 
