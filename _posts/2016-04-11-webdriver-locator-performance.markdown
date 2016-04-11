@@ -23,6 +23,9 @@ Test measures time used to find an element from [Twitter](http://twitter.com) fr
 Test Environment
 ----------------
 + Windows 10
+  + Firefox 45.0.1
+  + Chrome 49.0.2623.110
+  + Edge 25.10586.0.0
   + Java 8 (64bit, version 1.8.0_31)
 + WebDriver 2.53.0
   + FirefoxDriver 2.53.0
