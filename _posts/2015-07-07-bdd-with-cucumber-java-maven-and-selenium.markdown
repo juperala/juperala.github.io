@@ -2,8 +2,15 @@
 layout: post
 title: BDD with Cucumber, Java, Maven and Selenium
 date: 2015-07-07 14:24:13.000000000 +03:00
-author: juperala
+author: jperala
 header-img: "img/post-bg-04.jpg"
+tags:
+- BDD
+- Behavior-Driven development
+- Java
+- Maven
+- Cucumber
+- Selenium
 ---
 [Cucumber](https://cucumber.io/) provides flexible framework for writing BDD-style automated acceptance tests. Cucumber was originally implemented in Ruby, but currently implementation exists for various languages including Ruby, Java, .NET, Flex and many more. This tutorial presents example of implementing Cucumber acceptance tests in Java using Cucumber-JVM, Maven and Selenium.
 

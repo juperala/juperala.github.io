@@ -2,8 +2,12 @@
 layout: post
 title: Automate test environment setup
 date: 2014-03-19 01:07:05.000000000 +02:00
-author: juperala
+author: jperala
 header-img: "img/post-bg-02.jpg"
+tags:
+- Chef
+- Vagrant
+- Configuration management
 ---
 
 Manual installation and configuration of complex test environments can be very time consuming and error-prone. Setup and configuration of test environment with various servers and dependencies (e.g. database, application server, libraries, compilers, etc.) can take anything from hours to several days depending on the environment complexity. Manual configuration is also very error-prone as misconfiguration of the environment may not be directly visible, but can results unpredictable behavior and performance leading to unreliable test results. So why not to automate the setup process to make it fast and reproducible?

@@ -2,9 +2,14 @@
 layout: post
 title: JBehave and managing WebDriver initialization
 date: 2016-01-14 22:44:26.000000000 +02:00
-author: juperala
+author: jperala
 "header-img": "img/post-bg-06.jpg"
 published: true
+tags:
+- JBehave
+- WebDriver
+- Selenium
+- Java
 ---
 
 [JBehave](http://jbehave.org/) is a BDD framework similar to [Cucumber](https://cucumber.io/) introduced in earlier
