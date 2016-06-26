@@ -4,6 +4,7 @@ title: BDD with Cucumber, Java, Maven and Selenium
 date: 2015-07-07 14:24:13.000000000 +03:00
 author: jperala
 header-img: "img/post-bg-04.jpg"
+comments: true
 tags:
 - BDD
 - Behavior-Driven development

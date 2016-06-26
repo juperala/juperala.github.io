@@ -4,6 +4,7 @@ title: Applications for habitability
 date: 2015-09-27 20:16:17.000000000 +03:00
 author: jperala
 header-img: "img/post-bg-05.jpg"
+comments: true
 tags:
 - FiSTB Testing Assembly
 - Applications

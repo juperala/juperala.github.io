@@ -4,6 +4,7 @@ title: Automate test environment setup
 date: 2014-03-19 01:07:05.000000000 +02:00
 author: jperala
 header-img: "img/post-bg-02.jpg"
+comments: true
 tags:
 - Chef
 - Vagrant

@@ -4,6 +4,7 @@ title: Continuous integration for embedded systems
 date: 2015-02-20 11:29:48.000000000 +02:00
 author: jperala
 header-img: "img/2015-02-20/post-bg-arduino.jpg"
+comments: true
 tags:
 - Embedded systems
 - Continuous integration

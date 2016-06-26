@@ -5,6 +5,7 @@ date: 2016-06-11 10:23:00.000000000 +02:00
 author: jperala
 "header-img": "img/post-bg-03.jpg"
 published: true
+comments: true
 tags:
 - Continuous integration
 - Continuous delivery

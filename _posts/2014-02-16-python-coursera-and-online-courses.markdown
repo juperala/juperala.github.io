@@ -4,6 +4,7 @@ title: Python, Coursera and online courses
 date: 2014-02-16 02:26:36.000000000 +02:00
 author: jperala
 header-img: "img/post-bg-01.jpg"
+comments: true
 tags:
 - Python
 - Coursera

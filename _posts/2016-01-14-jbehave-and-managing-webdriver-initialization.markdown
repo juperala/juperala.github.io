@@ -5,6 +5,7 @@ date: 2016-01-14 22:44:26.000000000 +02:00
 author: jperala
 "header-img": "img/post-bg-06.jpg"
 published: true
+comments: true
 tags:
 - JBehave
 - WebDriver

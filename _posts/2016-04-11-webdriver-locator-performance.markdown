@@ -5,6 +5,7 @@ date: 2016-04-11 20:03:00.000000000 +02:00
 author: jperala
 "header-img": "img/post-bg-01.jpg"
 published: true
+comments: true
 tags:
 - WebDriver
 - Selenium

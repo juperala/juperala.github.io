@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Titan TTCN-3 Test Environment Setup
-date: 
+date:
 type: post
 published: false
 status: trash
-categories: []
+comments: false
 tags: []
 meta:
   _edit_last: '1'

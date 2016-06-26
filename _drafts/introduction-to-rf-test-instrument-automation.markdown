@@ -1,14 +1,11 @@
 ---
 layout: post
 title: Testing in the air - Introduction to RF test instrument automation
-date: 
+date:
 type: post
 published: false
 status: draft
-categories:
-- Embedded Systems
-- Test automation
-- Test instrument
+comments: false
 tags:
 - IVI
 - RF

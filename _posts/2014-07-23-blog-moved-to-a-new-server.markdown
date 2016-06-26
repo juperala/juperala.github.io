@@ -4,6 +4,7 @@ title: Blog moved to a new server
 date: 2014-07-23 04:55:40.000000000 +03:00
 author: jperala
 header-img: "img/post-bg-03.jpg"
+comments: true
 tags:
 - VPS
 - Virtualization

@@ -5,6 +5,7 @@ date: 2016-02-28 00:25:26.000000000 +02:00
 author: jperala
 "header-img": "img/post-bg-01.jpg"
 published: true
+comments: true
 tags:
 - Blog
 - Jekyll
