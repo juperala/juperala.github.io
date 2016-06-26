@@ -4,7 +4,7 @@ title: Adding comments to static site
 date: 2016-06-26 21:55:12.000000000 +02:00
 author: jperala
 "header-img": "img/post-bg-03.jpg"
-published: false
+published: true
 comments: true
 tags:
 - Blog
