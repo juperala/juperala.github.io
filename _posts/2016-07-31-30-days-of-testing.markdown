@@ -19,7 +19,7 @@ Unfortunately the challenge schedule overlapped with holiday season full of trav
 
 Here is a short diary of what I did - and missed - during the 30 days testing challenge.
 
-##1 Buy one testing related book and read it by day 30
+### 1 Buy one testing related book and read it by day 30
 
 Decided to read [Agile Testing: A Practical Guide for Testers and Agile Teams](https://www.amazon.com/Agile-Testing-Practical-Guide-Testers/dp/0321534468) by Janet Grecory and Lisa Crispin. I had it already in my bookself waiting to be read, and #30DaysOfTesting gave the needed motivation push for it.
 
