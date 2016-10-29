@@ -12,6 +12,10 @@ twitter_username: juperala
 #email_username:  juperala (at) dnainternet.net
 linkedin_username: in/juperala
 
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
