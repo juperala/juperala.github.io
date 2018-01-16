@@ -1,26 +1,21 @@
 # Site settings
-title: jperala.fi
-header-img: img/home-bg.jpg
-email: juperala(at)dnainternet.net
-copyright_name: Juho Perälä
-description: "Test, develop, automate"
-baseurl: ""
-url: "http://juperala.github.io"
-twitter_username: juperala
-#github_username:  juperala
+title:            jperala.fi
+#email:            juperala(at)dnainternet.net
+description:      "Test, develop, automate"
+author:           "Juho Perälä"
+baseurl:          ""
+url:              "https://jperala.fi"
+
+# Social Profiles
+twitter_username:   juperala
+github_username:   juperala
 #facebook_username: juho.perala
-#email_username:  juperala (at) dnainternet.net
 linkedin_username: in/juperala
 
-# Google Analytics
-# To enable google analytics, uncomment below line with a valid Google Tracking ID
-# google_tracking_id:
-
 # Build settings
-markdown: kramdown
-highlighter: rouge
-permalink: pretty
-paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-
-plugins: [jekyll-paginate, jekyll-feed]
+markdown:          kramdown
+paginate:          5
+paginate_path:     "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate

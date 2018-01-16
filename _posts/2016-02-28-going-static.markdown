@@ -2,14 +2,8 @@
 layout: post
 title: Going static - From WordPress to Jekyll
 date: 2016-02-28 00:25:26.000000000 +02:00
-author: jperala
-"header-img": "img/post-bg-01.jpg"
-published: true
+background: '/img/posts/01.jpg'
 comments: true
-tags:
-- Blog
-- Jekyll
-- Wordpress
 ---
 
 I am a lazy blogger - I only write occasionally. Originally I setup my blog to get familiar with Content Management Systems (CMSs). For the last 2 years this blog has been hosted on cheap $5/month VPS server running WordPress. Although I write only few posts per year, maintaining the server requires some additional effort on monthly basis. The server and CMS needs to be kept up-to-date to avoid security risks, backups needs to be managed, and so on. Especially the security concerns have been topic during the last year as numerous security vulnerabilities have been identified in the WordPress. There is also the cost issue, although insignificant, caused by the maintenance of the VPS server hosting. So it is time to try something new.

@@ -2,16 +2,8 @@
 layout: post
 title: WebDriver locator performance - Is Edge really that fast?
 date: 2016-04-11 20:03:00.000000000 +02:00
-author: jperala
-"header-img": "img/post-bg-01.jpg"
-published: true
+background: '/img/posts/04.jpg'
 comments: true
-tags:
-- WebDriver
-- Selenium
-- performance
-- Edge
-- Java
 ---
 
 With colleagues we had discussion about the performance of different WebDriver locators. According some sources especially the XPATH locator can have slow performance compared to CSS and other locators. To get rough idea about the performance of different locators I decided to make a quick test on Firefox, Chrome and Edge.

@@ -1,7 +1,7 @@
 # jperala.fi
 
-Personal website & blog http://jperala.fi.
+Personal website [jperala.fi](https://jperala.fi).
 
 ## Theme
 
-Based on [Clean Blog](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll) Jekyll theme.
+Based on [Start Bootstrap - Clean Blog](https://startbootstrap.com/template-overviews/clean-blog/) Jekyll theme.

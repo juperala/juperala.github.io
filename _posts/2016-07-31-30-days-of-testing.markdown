@@ -2,13 +2,8 @@
 layout: post
 title: "Summary of #30DaysOfTesting"
 date: 2016-07-31 16:34:04.000000000 +02:00
-author: jperala
-"header-img": "img/post-bg-02.jpg"
-published: true
+background: '/img/posts/02.jpg'
 comments: true
-tags:
-- 30 days of testing
-- Ministry of Testing
 ---
 
 *Ministry of Testing* started a [#30DaysOfTesting](http://www.ministryoftesting.com/2016/06/30-day-testing-challenge/) challenge for the July. I decided to join the challenge as it provided a great opportunity to have some fun, learn new skills and share it with the testing community.

@@ -2,15 +2,8 @@
 layout: post
 title: Adding comments to static site
 date: 2016-06-26 21:55:12.000000000 +02:00
-author: jperala
-"header-img": "img/post-bg-03.jpg"
-published: true
+background: '/img/posts/06.jpg'
 comments: true
-tags:
-- Blog
-- Jekyll
-- Disqus
-- Comments
 ---
 
 As I wrote [earlier]({% post_url 2016-02-28-going-static %}), I migrated my blog from Wordpress to static Jekyll website. I really like the static website as a concept as it makes the site maintenance less complicated and straightforward. However, being a static site, there is no native support for adding dynamic features such as post commenting.

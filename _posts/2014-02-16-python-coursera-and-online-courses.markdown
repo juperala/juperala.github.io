@@ -2,12 +2,8 @@
 layout: post
 title: Python, Coursera and online courses
 date: 2014-02-16 02:26:36.000000000 +02:00
-author: jperala
-header-img: "img/post-bg-01.jpg"
+background: '/img/posts/01.jpg'
 comments: true
-tags:
-- Python
-- Coursera
 ---
 
 In my current work project we are using mainly Java for programming and usage of other programming languages, such as Python, has been rather limited lately. Therefore I decided to take some personal project to exercise my Python programming skills. As I had just bumped into the [Coursera](https://www.coursera.org/) and it’s online courses, I decided to sign-up for 9-week [Interactive Python Programming](https://www.coursera.org/course/interactivepython) course organized by *Rice University*. Although the course was basic-level programming course, I figured it would also provide good recap for person with previous programming experience.

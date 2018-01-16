@@ -2,23 +2,8 @@
 layout: post
 title: Half dozen of hosted CI platforms
 date: 2016-06-11 10:23:00.000000000 +02:00
-author: jperala
-"header-img": "img/post-bg-03.jpg"
-published: true
+background: '/img/posts/03.jpg'
 comments: true
-tags:
-- Continuous integration
-- Continuous delivery
-- Infrastruture as code
-- TravisCI
-- CircleCI
-- SnapCI
-- Shippable
-- Codeship
-- SolanoLabs
-- Atlassian Bamboo
-- JetBrains Teamcity
-- Jenkins
 ---
 
 Continuous integration (CI) and Continous Delivery (CD) pipeline is one of the key enablers for agile development, release and continuous quality assurance. Traditionally CI platforms, like [Jenkins](https://jenkins.io/), [Teamcity](https://www.jetbrains.com/teamcity/) and [Atlassian Bamboo](https://www.atlassian.com/software/bamboo), have been self-hosted server applications deployed in in-house infrastructures.
