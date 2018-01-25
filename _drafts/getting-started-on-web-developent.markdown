@@ -10,7 +10,7 @@ comments: true
 
 <p>Inspired by this I decided to start an side-project to get more familiar on developing frontend applications with modern tools. It would give me also a great opportunity to try out cloud platforms and their benefits from app development perspective - for now I've used cloud platforms only for testing related tasks.</p>
 
-<p>Here's short story of what I did and thoughs throughout the learning path. The post does not aim to be a step-by-step tutorial, but rather give an overview of what to look into when starting frontend web development.</p>
+<p>Here's story of what I did and thoughs throughout the learning path. The post does not aim to be a step-by-step tutorial, but rather give an overview of what to look into when starting frontend web development.</p>
 
 ## The Goal
 <p>I wanted to develop some application that could potentially be somewhat usefull for others also. Maybe something that uses Open Data.</p>
@@ -19,7 +19,7 @@ comments: true
 
 <p>As I wanted to store the utilization information for statistics, It was clear that I would need to implement the frontend application that shows this information, and also backend functionality that fetches data from public API, stores it database and provides API to query stored data by the frontend application.</p> 
 
-## Getting Started - What tools for what?
+## What tools for what?
 <p>Getting started on web development can be a bit painful. Even though I have plenty background with other programming and as a tester I've worked a lot with web apps to know solid basics of HTML markups and CSS styling, it wasn't fully clear what tools and libraries I need to get started. As a newbie it kind of feels that there is dozen of "X.js" libraries and tools for everything and I felt bit unsure to know what to use.</p>
 
 <p>One of the best resources describing the current status in web dev that I found was Matt Raible's Devoxx talks ["Front Ends for Back End Developers"](https://www.youtube.com/watch?v=AjzyV8BraIs). That was definitely worth watching.</p>
@@ -45,7 +45,7 @@ comments: true
 ### Application Framework
 <p>You can develop applications with plain (vanilla) JavaScript, but most projects use some kind of web framework for project structure. The top-3 currently seems to be React, Angular and Vue.js. For any of these you are likely to find good community support with examples, forums, etc. There is also endless amount of other frameworks, Meteor, Ember.js and Cycle.js to mention few.</p>
 
-<p>For my project I chose React due it's wide popularity and having colleagues knowing it well.</p>
+<p>For my project I chose React due it's wide popularity and having colleagues with experience on it.</p>
 
 ### Dependency & Build Tools
 <p>When developing your application you need to somehow manage and download the needed dependencies and tools. For this you most likely end-up using npm or yarn. Npm is the good 'ol package manager that most tutorials seems to be using. Yarn is newer tool aiming to solve some problems and performance issues npm has.</p>
@@ -71,7 +71,7 @@ comments: true
 <p>I used Webpack that came preconfigured with React's create-react-app.</p>
 
 ### Transpiler
-<p>When using the latest features not yet supported by all targeted browsers, you may need to transpile the code to be compatible with older JavaScript versions. Babel is the tool to do it.</p>
+<p>When using the latest features not yet supported by all targeted browsers, you may need to transpile the code to be compatible with older JavaScript versions. Babel is the de-facto tool to do it.</p>
 
 ## Cloud Deployment
 <p>...AWS.</p>
@@ -94,5 +94,15 @@ comments: true
 ### Database
 <p>AWS DynamoDB.</p>
 
-## Summary
+## Developing the application
+
+### Frontend React app
+
+### Backend APIs
+
+## The Result: oulunparkit.com
 <p>AWS DynamoDB.</p>
+
+## Wrap-up
+<p>AWS DynamoDB.</p>
+
