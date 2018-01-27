@@ -74,7 +74,6 @@ I used Webpack that came preconfigured with React's create-react-app.
 When using the latest features not yet supported by all targeted browsers, you may need to transpile the code to be compatible with older JavaScript versions.
 
 [Babel](https://babeljs.io/) is the de-facto tool to do it.
-[NodeJS](https://nodejs.org/)
 
 ## What Tools for Cloud Deployment?
 Once it was clear what tools to use for developing the frontend app, I needed to think about deployment. I didn't want to setup my own server, or virtual server that would require maintenance and create continuous costs for hosting the application.
