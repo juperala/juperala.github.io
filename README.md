@@ -1,6 +1,6 @@
 # jperala.fi
 
-Personal website & blog http://jperala.fi.
+Personal website & blog https://jperala.fi.
 
 ## Theme
 
