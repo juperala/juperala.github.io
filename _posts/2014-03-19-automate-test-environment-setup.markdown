@@ -1,9 +1,12 @@
 ---
 layout: post
 title: Automate test environment setup
-date: 2014-03-19 01:07:05.000000000 +02:00
+description: Setting up test environments manually is waste of time. Use Chef, Vagrant and other Infrastructure As Code tools to help automate environment setups.
+date: 2014-03-19 01:07 +02:00
+last_modified_at: 2020-03-26 17:02 +0200   
 author: jperala
 header-img: "img/post-bg-02.jpg"
+image: "img/post-bg-02.jpg"
 comments: true
 tags:
 - Chef

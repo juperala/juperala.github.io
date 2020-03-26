@@ -1,9 +1,12 @@
 ---
 layout: post
 title: Review Your Test Automation Code
-date: 2018-09-11 00:34:00 +03:00
+description: Why should test automation code and scripts be reviewed similar to production code? Here is my list of common problem areas in automation code to look for in code reviews.
+date: 2018-09-11 00:34 +03:00
+last_modified_at: 2020-03-26 17:15 +0200
 author: jperala
-"header-img": "img/post-bg-05.jpg"
+header-img: "img/post-bg-05.jpg"
+image: "img/post-bg-05.jpg"
 published: true
 comments: true
 tags:

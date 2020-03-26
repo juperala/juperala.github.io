@@ -1,9 +1,12 @@
 ---
 layout: post
 title: Blog moved to a new server
-date: 2014-07-23 04:55:40.000000000 +03:00
+description: Blog moved to a new VPS server. Experiences on moving to VULTR virtual private servers.
+date: 2014-07-23 04:55 +03:00
+last_modified_at: 2020-03-26 17:03 +0200   
 author: jperala
 header-img: "img/post-bg-03.jpg"
+image: "img/post-bg-03.jpg"
 comments: true
 tags:
 - VPS

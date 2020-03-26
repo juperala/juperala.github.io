@@ -1,10 +1,13 @@
 ---
 layout: post
 title: Ten Tips for Starting Test Automation
-date: 2018-06-01 00:00:01.000000000 +03:00
+description: This is my list of ten tips for getting started and keeping your test automation projects on the right track and avoid common culprits and challenges.
+date: 2018-06-01 00:01 +03:00
+last_modified_at: 2020-03-26 17:14 +0200
 author: jperala
 published: true 
 header-img: "img/home-bg.jpg"
+image: "img/home-bg.jpg"
 comments: true
 ---
 _This is a re-post from an original two-post article posted in [Bitfactor Blog](https://bitfactor.fi)_

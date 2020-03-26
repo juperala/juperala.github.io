@@ -1,9 +1,12 @@
 ---
 layout: post
 title: Applications for habitability
-date: 2015-09-27 20:16:17.000000000 +03:00
+description: "Three tools to make your Windows development setup habitable: Console, MTPutty and Notepad++"
+date: 2015-09-27 20:16 +03:00
+last_modified_at: 2020-03-26 17:06 +0200
 author: jperala
 header-img: "img/post-bg-05.jpg"
+image: "img/post-bg-05.jpg"
 comments: true
 tags:
 - FiSTB Testing Assembly

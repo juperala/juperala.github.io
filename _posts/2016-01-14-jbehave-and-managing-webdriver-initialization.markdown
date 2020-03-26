@@ -1,9 +1,12 @@
 ---
 layout: post
 title: JBehave and managing WebDriver initialization
-date: 2016-01-14 22:44:26.000000000 +02:00
+description: How to manage Selenium WebDriver lifecycle in Jbehave tests? Difference of PerStoriesWebDriverSteps, PerStoryWebDriverSteps and PerScenarioWebDriverSteps?
+date: 2016-01-14 22:44 +02:00
+last_modified_at: 2020-03-26 17:07 +0200
 author: jperala
-"header-img": "img/post-bg-06.jpg"
+header-img: "img/post-bg-06.jpg"
+image: "img/post-bg-06.jpg"
 published: true
 comments: true
 tags:

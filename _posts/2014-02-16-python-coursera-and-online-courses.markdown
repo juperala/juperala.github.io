@@ -1,9 +1,12 @@
 ---
 layout: post
 title: Python, Coursera and online courses
-date: 2014-02-16 02:26:36.000000000 +02:00
+description: "Learning Python with Coursera: Student experience on Coursera platform and Online trainings."
+date: 2014-02-16 02:26 +02:00
+last_modified_at: 2020-03-26 17:01 +0200    
 author: jperala
 header-img: "img/post-bg-01.jpg"
+image: "img/post-bg-01.jpg"
 comments: true
 tags:
 - Python

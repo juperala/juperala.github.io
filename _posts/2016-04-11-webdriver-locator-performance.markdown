@@ -1,9 +1,12 @@
 ---
 layout: post
 title: WebDriver locator performance - Is Edge really that fast?
-date: 2016-04-11 20:03:00.000000000 +02:00
+description: WebDriver locator performance. Testing Selenium speed with different browsers. Is Edge really that fast?
+date: 2016-04-11 20:03 +02:00
+last_modified_at: 2020-03-26 17:09 +0200
 author: jperala
-"header-img": "img/post-bg-01.jpg"
+header-img: "img/post-bg-01.jpg"
+image: "img/post-bg-01.jpg"
 published: true
 comments: true
 tags:

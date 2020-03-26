@@ -1,9 +1,12 @@
 ---
 layout: post
 title: Going static - From WordPress to Jekyll
-date: 2016-02-28 00:25:26.000000000 +02:00
+description: Making the blog static. Benefits of static website generators. How to migrate from Wordpress to Jekyll?
+date: 2016-02-28 00:25 +02:00
+last_modified_at: 2020-03-26 17:08 +0200
 author: jperala
-"header-img": "img/post-bg-01.jpg"
+header-img: "img/post-bg-01.jpg"
+image: "img/post-bg-01.jpg"
 published: true
 comments: true
 tags:

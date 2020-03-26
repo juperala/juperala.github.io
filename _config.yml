@@ -1,5 +1,5 @@
 # Site settings
-title: jperala.fi
+title: Test, Develop & Automate
 header-img: img/home-bg.jpg
 email: juperala(at)dnainternet.net
 copyright_name: Juho Perälä
@@ -13,8 +13,7 @@ twitter_username: juperala
 linkedin_username: in/juperala
 
 # Google Analytics
-# To enable google analytics, uncomment below line with a valid Google Tracking ID
-# google_tracking_id:
+google_tracking_id: UA-44856723-1
 
 # Build settings
 markdown: kramdown

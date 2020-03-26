@@ -1,9 +1,12 @@
 ---
 layout: post
 title: Adding comments to static site
-date: 2016-06-26 21:55:12.000000000 +02:00
+description: How to setup comments for a static blog site? Step-by-step tutorial for setting Disqus commenting on Jekyll blog.
+date: 2016-06-26 21:55 +02:00
+last_modified_at: 2020-03-26 17:11 +0200
 author: jperala
-"header-img": "img/post-bg-03.jpg"
+header-img: "img/post-bg-03.jpg"
+image: "img/post-bg-03.jpg"
 published: true
 comments: true
 tags:

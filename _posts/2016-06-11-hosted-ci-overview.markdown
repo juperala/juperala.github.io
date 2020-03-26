@@ -1,9 +1,12 @@
 ---
 layout: post
 title: Half dozen of hosted CI platforms
-date: 2016-06-11 10:23:00.000000000 +02:00
+description: "Comparison of hosted continuous integration platforms: TravisCI, CircleCI, SnapCI, Shippable, Codeship, SolanoLabs and more."
+date: 2016-06-11 10:23 +02:00
+last_modified_at: 2020-03-26 17:10 +0200
 author: jperala
-"header-img": "img/post-bg-03.jpg"
+header-img: "img/post-bg-03.jpg"
+image: "img/post-bg-03.jpg"
 published: true
 comments: true
 tags:

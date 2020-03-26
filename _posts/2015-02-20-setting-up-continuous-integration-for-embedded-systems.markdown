@@ -1,9 +1,12 @@
 ---
 layout: post
 title: Continuous integration for embedded systems
-date: 2015-02-20 11:29:48.000000000 +02:00
+description: Step-by-step example how to setup Jenkins continuous integration environment for Arduino Uno based embedded system testing.
+date: 2015-02-20 11:29 +02:00
+last_modified_at: 2020-03-26 17:04 +0200
 author: jperala
 header-img: "img/2015-02-20/post-bg-arduino.jpg"
+image: "img/2015-02-20/post-bg-arduino.jpg"
 comments: true
 tags:
 - Embedded systems

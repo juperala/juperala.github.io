@@ -1,10 +1,13 @@
 ---
 layout: post
 title: Getting started on Web Development
-date: 2018-01-26 22:43:00.000000000 +02:00
+description: Getting started on Web Development. My first fullstack project with JavaScript, React and AWS cloud. What I did and learned?
+date: 2018-01-26 22:43 +02:00
+last_modified_at: 2020-03-26 17:13 +0200
 author: jperala
 published: true 
 header-img: "img/post-bg-01.jpg"
+image: "img/post-bg-01.jpg"
 comments: true
 ---
 It kind of shocked me to realize that I've never really developed frontend web applications - There just haven't been any need for it. For the most of my career I've worked on job roles related to test automation. That includes plenty of programming and development on daily basis, but all the development I do is for testing. Meaning things like writing automated tests using frameworks such Selenium, JUnit and Robot Framework; creating automation scripts for setting up test environments; developing test tools; and so on. I've also worked purely on development roles, but always related to embedded or backend development.

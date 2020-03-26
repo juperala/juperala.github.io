@@ -1,9 +1,12 @@
 ---
 layout: post
 title: "Summary of #30DaysOfTesting"
-date: 2016-07-31 16:34:04.000000000 +02:00
+description: "Summary of Ministry of Testing 30 Days Of Testing challenge. What did I do and learn? #30DaysOfTesting"
+date: 2016-07-31 16:34 +02:00
+last_modified_at: 2020-03-26 17:12 +0200
 author: jperala
-"header-img": "img/post-bg-02.jpg"
+header-img: "img/post-bg-02.jpg"
+image: "img/post-bg-02.jpg"
 published: true
 comments: true
 tags:

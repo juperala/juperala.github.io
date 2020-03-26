@@ -1,9 +1,12 @@
 ---
 layout: post
 title: How to run Robot Framework from command line?
-date: 2020-03-25 17:23:00 +02:00
+description: How to run Robot Framework test cases from command line? This is quick introduction for executing single, set or all Robot Framework test cases in a project.
+date: 2020-03-25 17:23 +02:00
+last_modified_at: 2020-03-26 17:16 +0200
 author: jperala
-"header-img": "img/post-bg-07.jpg"
+header-img: "img/post-bg-07.jpg"
+image: "img/post-bg-07.jpg"
 published: true
 comments: true
 tags:

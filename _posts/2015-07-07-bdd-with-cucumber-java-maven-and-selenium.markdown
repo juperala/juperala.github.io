@@ -1,9 +1,12 @@
 ---
 layout: post
 title: BDD with Cucumber, Java, Maven and Selenium
-date: 2015-07-07 14:24:13.000000000 +03:00
+description: Step-by-step tutorial for writing Behaviour Driver Development (BDD) test cases with Cucumber, Java, Maven and Selenium.
+date: 2015-07-07 14:24 +03:00
+last_modified_at: 2020-03-26 17:05 +0200
 author: jperala
 header-img: "img/post-bg-04.jpg"
+image: "img/post-bg-04.jpg"
 comments: true
 tags:
 - BDD
